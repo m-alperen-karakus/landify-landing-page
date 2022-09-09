@@ -1,8 +1,3 @@
-body {
-  font-family: "Inter";
-  font-weight: 500;
-}
-
 .myNavbar {
   position: fixed;
   width: 100%;
@@ -19,7 +14,7 @@ body {
   align-items: center;
 }
 .myNavbar .row .col-md-7 .logo {
-  background-image: url(./assets/header/Darklogo.svg);
+  background-image: url(./assets/logos/landify.svg);
   width: 105px;
   height: 30px;
   background-repeat: no-repeat;
@@ -107,14 +102,14 @@ body {
   padding: 16px 0px;
 }
 .myNavbar .row .col-md-5 .google {
-  background-image: url(./assets/header/Google\ Play\ Badge.png);
+  background-image: url(./assets/badges/google-play-badge.png);
   width: 135px;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0px 6px;
 }
 .myNavbar .row .col-md-5 .apple {
-  background-image: url(./assets/header/App\ Store\ Badge.png);
+  background-image: url(./assets/badges/app-store-badge.png);
   width: 135px;
   height: 40px;
   background-repeat: no-repeat;
@@ -162,10 +157,11 @@ body {
 }
 
 .hero {
-  background-image: url(./assets/hero/Background.jpg);
+  background-image: url(./assets/backgrounds/hero-background-desktop.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding-bottom: 50px;
 }
 .hero .row {
   padding-top: 170px;
@@ -214,7 +210,7 @@ body {
   padding: 0px;
 }
 .hero .row .mockupFrame .mockup {
-  background-image: url(./assets/hero/iPhone\ X.svg);
+  background-image: url(./assets/hero-phone-mockup.svg);
   width: 320px;
   height: 640px;
   background-repeat: no-repeat;
@@ -222,9 +218,10 @@ body {
 }
 @media screen and (max-width: 769px) {
   .hero {
-    background-image: url(./assets/hero/BackgroundMobile.jpg);
-    width: 100%;
-    height: 1150px;
+    background-image: url(./assets/backgrounds/hero-background-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
