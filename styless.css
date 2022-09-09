@@ -1,8 +1,9 @@
 .myNavbar {
   position: fixed;
+  z-index: 1;
   width: 100%;
-  z-index: 9;
   background-color: rgba(225, 213, 253, 0.2);
+  -webkit-padding-start: 0px;
 }
 .myNavbar .row {
   margin: 0%;
@@ -291,10 +292,12 @@
 }
 
 .comments {
+  padding-top: 160px;
+  padding-bottom: 60px;
   background-image: url(./assets/backgrounds/customer-comment-background-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 .comments .left {
   display: flex;
@@ -302,6 +305,7 @@
   align-items: flex-end;
   justify-content: center;
   text-align: start;
+  margin-right: 18px;
 }
 .comments .title {
   font-weight: 800;
@@ -313,11 +317,34 @@
   padding: 8px 0px;
 }
 .comments .myCard {
-  /* Default / White */
-  background: #FFFFFF;
-  /* Dark Shadow */
+  background-color: white;
   box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
   border-radius: 8px;
-  width: 350px;
-  height: 396px;
+  height: max-content;
+  display: flex;
+  margin: 16px 0px 16px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.comments .myCard img {
+  padding: 32px 32px 0px 32px;
+  width: 50%;
+  min-width: 140px;
+}
+.comments .myCard .content {
+  padding: 32px;
+}
+.comments .myCard .content .article {
+  font-weight: 400;
+  font-size: 18px;
+}
+.comments .myCard .content .author {
+  padding-top: 24px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.comments .myCard .content .proffession {
+  font-weight: 500;
+  font-size: 14px;
+  color: #969BAB;
 }/*# sourceMappingURL=styless.css.map */
