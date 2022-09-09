@@ -7,7 +7,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 9;
-  background-color: #F6FAFF;
+  background-color: rgba(225, 213, 253, 0.2);
 }
 .myNavbar .row {
   margin: 0%;
