@@ -7,6 +7,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 9;
+  background-color: #F6FAFF;
 }
 .myNavbar .row {
   margin: 0%;
@@ -169,7 +170,7 @@ body {
 .hero .row {
   padding-top: 170px;
 }
-.hero .row .col-md-6 {
+.hero .row .heroText {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -180,21 +181,39 @@ body {
   color: #18191F;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.hero .row .col-md-6 button {
+.hero .row .heroText button {
   background: #8C30F5;
   border-radius: 6px;
   border: none;
   font-size: 16px;
   font-weight: 500;
   color: white;
+  margin-top: 32px;
   padding: 12px 32px;
 }
-.hero .row .col-md-4 {
+@media screen and (max-width: 1200px) {
+  .hero .row .heroText {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero .row .heroText {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .hero .row .heroText {
+    font-size: 32px;
+  }
+}
+.hero .row .mockupFrame {
   justify-content: center;
   display: flex;
   padding-bottom: 80px;
+  align-items: center;
+  padding: 0px;
 }
-.hero .row .col-md-4 .mockup {
+.hero .row .mockupFrame .mockup {
   background-image: url(./assets/iPhone\ X.svg);
   width: 320px;
   height: 640px;
