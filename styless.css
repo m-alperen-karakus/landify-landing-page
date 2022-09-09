@@ -244,4 +244,51 @@ body {
 }
 .referances .col img {
   padding: 24px 24px;
+}
+
+.feature {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.feature .row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.feature .row .title {
+  padding-top: 64px;
+  font-weight: 800;
+  font-size: 48px;
+}
+.feature .row .subtitle {
+  font-weight: 400;
+  font-size: 18px;
+}
+.feature .row .myCard {
+  padding-top: 64px;
+}
+.feature .row .myCard .cardTitle {
+  font-weight: 600;
+  font-size: 24px;
+}
+.feature .row .myCard .cardSubtitle {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0px 40px;
+}
+@media screen and (max-width: 575px) {
+  .feature .row .title {
+    font-size: 32px;
+  }
+  .feature .row .subtitle {
+    font-size: 14px;
+  }
+  .feature .row .card .cardTitle {
+    font-size: 18px;
+  }
+  .feature .row .card .cardSubtitle {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=styless.css.map */
