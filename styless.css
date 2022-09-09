@@ -297,7 +297,6 @@
   background-image: url(./assets/backgrounds/customer-comment-background-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
 }
 .comments .left {
   display: flex;
@@ -329,7 +328,7 @@
 .comments .myCard img {
   padding: 32px 32px 0px 32px;
   width: 50%;
-  min-width: 140px;
+  min-width: 200px;
 }
 .comments .myCard .content {
   padding: 32px;
@@ -347,4 +346,9 @@
   font-weight: 500;
   font-size: 14px;
   color: #969BAB;
+}
+@media screen and (max-width: 900px) {
+  .comments {
+    background-image: url(./assets/backgrounds/customer-comment-background-mobil.png);
+  }
 }/*# sourceMappingURL=styless.css.map */
