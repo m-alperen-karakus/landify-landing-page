@@ -19,7 +19,7 @@ body {
   align-items: center;
 }
 .myNavbar .row .col-md-7 .logo {
-  background-image: url(./assets/Header/Darklogo.svg);
+  background-image: url(./assets/header/Darklogo.svg);
   width: 105px;
   height: 30px;
   background-repeat: no-repeat;
@@ -107,14 +107,14 @@ body {
   padding: 16px 0px;
 }
 .myNavbar .row .col-md-5 .google {
-  background-image: url(./assets/Header/Google\ Play\ Badge.png);
+  background-image: url(./assets/header/Google\ Play\ Badge.png);
   width: 135px;
   height: 40px;
   background-repeat: no-repeat;
   margin: 0px 6px;
 }
 .myNavbar .row .col-md-5 .apple {
-  background-image: url(./assets/Header/App\ Store\ Badge.png);
+  background-image: url(./assets/header/App\ Store\ Badge.png);
   width: 135px;
   height: 40px;
   background-repeat: no-repeat;
@@ -162,7 +162,7 @@ body {
 }
 
 .hero {
-  background-image: url(./assets/Background.jpg);
+  background-image: url(./assets/hero/Background.jpg);
   width: auto;
   height: 866px;
   background-repeat: no-repeat;
@@ -214,9 +214,24 @@ body {
   padding: 0px;
 }
 .hero .row .mockupFrame .mockup {
-  background-image: url(./assets/iPhone\ X.svg);
+  background-image: url(./assets/hero/iPhone\ X.svg);
   width: 320px;
   height: 640px;
   background-repeat: no-repeat;
   filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+}
+
+.referancesDivider {
+  width: 1110px;
+  height: 1px;
+  color: #C0CCDA;
+}
+
+.referances {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.referances img {
+  padding: 24px 32px;
 }/*# sourceMappingURL=styless.css.map */

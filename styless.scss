@@ -19,7 +19,7 @@
         padding: 22px 0px;
         align-items: center;
         .logo{
-          background-image: url(./assets/Header/Darklogo.svg);
+          background-image: url(./assets/header/Darklogo.svg);
           width: 105px;
           height: 30px;
           background-repeat: no-repeat;
@@ -117,14 +117,14 @@
         flex-direction: row;
         padding: 16px 0px;
         .google{
-          background-image: url(./assets/Header/Google\ Play\ Badge.png);
+          background-image: url(./assets/header/Google\ Play\ Badge.png);
           width: 135px;
           height: 40px;
           background-repeat: no-repeat;
           margin:0px 6px;
         }
         .apple{
-          background-image: url(./assets/Header/App\ Store\ Badge.png);
+          background-image: url(./assets/header/App\ Store\ Badge.png);
           width: 135px;
           height: 40px;
           background-repeat: no-repeat;
@@ -179,7 +179,7 @@
   }
 //Hero
   .hero{
-    background-image: url(./assets/Background.jpg);
+    background-image: url(./assets/hero/Background.jpg);
     width: auto;
     height: 866px;
     background-repeat: no-repeat;
@@ -229,7 +229,7 @@
         align-items: center;
         padding: 0px;
         .mockup{
-          background-image: url(./assets/iPhone\ X.svg);
+          background-image: url(./assets/hero/iPhone\ X.svg);
           width: 320px;
           height: 640px;
           background-repeat: no-repeat;
@@ -241,4 +241,17 @@
       }
     }
 
+  }
+.referancesDivider{
+  width: 1110px;
+  height: 1px;
+  color: #C0CCDA;
+}
+  .referances{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      padding: 24px 32px;
+    }
   }
