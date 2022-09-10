@@ -351,4 +351,52 @@
   .comments {
     background-image: url(./assets/backgrounds/customer-comment-background-mobil.png);
   }
+}
+
+.stats .row {
+  padding: 80px 0px 80px 0px;
+  align-items: center;
+}
+.stats .row .title {
+  font-weight: 800;
+  font-size: 48px;
+  color: #18191F;
+}
+.stats .row .subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  color: #18191F;
+}
+.stats .row .statGroup {
+  flex-wrap: wrap;
+  display: flex;
+}
+.stats .row .statGroup .col-12 {
+  margin-top: 48px;
+  flex-direction: row;
+  display: flex;
+}
+.stats .row .statGroup .col-12 img {
+  width: 48px;
+  height: 48px;
+  padding-right: 16px;
+}
+.stats .row .statGroup .statTitle {
+  font-weight: 700;
+  font-size: 28px;
+}
+.stats .row .statGroup .statSubtitle {
+  font-weight: 400;
+  font-size: 16px;
+}
+@media screen and (max-width: 576px) {
+  .stats .row .title {
+    font-size: 32px;
+  }
+  .stats .row .subtitle {
+    font-size: 14px;
+  }
+  .stats .row .statGroup .statTitle {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=styless.css.map */
