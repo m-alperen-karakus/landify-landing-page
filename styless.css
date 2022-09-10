@@ -399,4 +399,8 @@
   .stats .row .statGroup .statTitle {
     font-size: 20px;
   }
+}
+
+.article-with-logo {
+  max-width: 396px;
 }/*# sourceMappingURL=styless.css.map */
