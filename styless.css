@@ -211,7 +211,7 @@
   padding: 0px;
 }
 .hero .row .mockupFrame .mockup {
-  background-image: url(./assets/hero-phone-mockup.svg);
+  background-image: url(./assets/mockups/hero-phone-mockup.svg);
   width: 320px;
   height: 640px;
   background-repeat: no-repeat;
