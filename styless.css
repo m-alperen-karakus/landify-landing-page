@@ -542,4 +542,54 @@
   .cta .appsSubtitle {
     font-size: 14px;
   }
+}
+
+.footer {
+  background: #000000;
+  padding: 40px 40px;
+}
+.footer .col-12 {
+  padding: 18px;
+}
+.footer a {
+  margin-right: 24px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer .copyright {
+  margin-top: 24px;
+  color: #D9DBE1;
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer .appsSubtitle {
+  margin-top: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #D9DBE1;
+  margin-bottom: 12px;
+  padding: 18px;
+}
+.footer .apps {
+  padding: 0px 18px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 68px;
+}
+.footer .apps .google {
+  background-image: url(./assets/badges/google-play-badge.png);
+  width: 135px;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 6px 12px 6px 0px;
+}
+.footer .apps .apple {
+  background-image: url(./assets/badges/app-store-badge.png);
+  width: 135px;
+  height: 40px;
+  background-repeat: no-repeat;
+  margin: 6px 0px 6px 0px;
 }/*# sourceMappingURL=styless.css.map */

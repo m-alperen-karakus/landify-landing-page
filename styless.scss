@@ -487,7 +487,7 @@
     }
   }
 }
-
+// Article with Image
 .articleWithImage{
   margin: 64px 0px 64px 0px;
   .col-10{
@@ -524,6 +524,7 @@
   }
 }
 
+// Topic with Image
 .topicWithImage{
   margin-top: 64px;
   .row{
@@ -551,6 +552,7 @@ color: #18191F;
   }
 }
 
+//Call the Action (CTA)
 .cta{
   background-color: #2EC5CE;
   .col-10{
@@ -614,4 +616,58 @@ color: #18191F;
 }
 
 
+}
+
+// Footer
+.footer{
+  background: #000000;
+  padding: 40px 40px;
+  
+
+  .col-12{
+    padding: 18px;
+  }
+  a{
+    margin-right: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .copyright{
+    margin-top: 24px;
+    color: #D9DBE1;
+    font-weight: 400;
+font-size: 14px;
+  }
+  .appsSubtitle{
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #D9DBE1;
+    margin-bottom: 12px;
+    padding: 18px;
+  }
+  .apps{
+    padding: 0px 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 68px;
+    .google {
+      background-image: url(./assets/badges/google-play-badge.png);
+      width: 135px;
+      height: 40px;
+      background-repeat: no-repeat;
+      margin: 6px 12px 6px 0px;
+    }
+
+    .apple {
+      background-image: url(./assets/badges/app-store-badge.png);
+      width: 135px;
+      height: 40px;
+      background-repeat: no-repeat;
+      margin: 6px 0px 6px 0px;
+    }
+  }
 }
