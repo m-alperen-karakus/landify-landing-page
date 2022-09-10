@@ -550,3 +550,68 @@ color: #18191F;
     button { font-size: 12px;}
   }
 }
+
+.cta{
+  background-color: #2EC5CE;
+  .col-10{
+    display: flex;
+    flex-direction: column;
+  }
+  .title{
+    font-weight: 800;
+    font-size: 48px;
+    color: #18191F;
+    margin-top: 68px;
+  }
+  .article{
+    font-weight: 400;
+    font-size: 18px;
+    color: #18191F;
+  }
+  .appsSubtitle{
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #18191F;
+    margin-bottom: 12px;
+
+  }
+  .apps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 68px;
+    .google {
+      background-image: url(./assets/badges/google-play-badge.png);
+      width: 135px;
+      height: 40px;
+      background-repeat: no-repeat;
+      margin: 6px 12px 6px 0px;
+    }
+
+    .apple {
+      background-image: url(./assets/badges/app-store-badge.png);
+      width: 135px;
+      height: 40px;
+      background-repeat: no-repeat;
+      margin: 6px 0px 6px 0px;
+    }
+  }
+
+  .ctaMockup{
+    background-image: url(./assets/mockups/ctaPhoneMockup.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 536px;
+    @media screen and (max-width:576px) { background-image: url(./assets/mockups/ctaPhoneMockupMobil.png); }
+  }
+
+  @media screen and (max-width:900px) {
+    .article { font-size: 14px; }
+    .title { font-size: 30px; }
+    .appsSubtitle{ font-size: 14px;}
+}
+
+
+}
