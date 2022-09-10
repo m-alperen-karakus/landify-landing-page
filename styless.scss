@@ -502,19 +502,25 @@
   }
   .title{
     font-weight: 800;
-    font-size: 40px;  }
+    font-size: 50px;  }
   .article{
     padding: 24px 0px 24px 0px;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 28px;
     color: #18191F;
   }
   button{
     border: none;
     background: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: #8C30F5;
+  }
+
+  @media screen and (max-width:1200px) {
+    .article { font-size: 18px; }
+    .title { font-size: 40px; }
+    button { font-size: 16px;}
   }
 
   @media screen and (max-width:900px) {
@@ -527,19 +533,25 @@
 // Topic with Image
 .topicWithImage{
   margin-top: 64px;
+  margin-bottom: 64px;
   .row{
     margin: 24px 0px 24px 0px;
   }
+  .col-10{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .title{
     font-weight: 800;
-    font-size: 40px;
+    font-size: 50px;
     color: #18191F;
   }
   .article{
     font-weight: 400;
-font-size: 18px;
-color: #18191F;
-
+    font-size: 20px;
+  color: #18191F;
+    
   }
   img{
     width: 100%;
